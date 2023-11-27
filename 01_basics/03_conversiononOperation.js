@@ -48,3 +48,8 @@ let d=33
 let x=String(d)
 console.log(x);
 console.log(typeof x);
+
+console.log("1"+2);  //op=12
+console.log(1+"2");  //op=12
+console.log("1"+2+2);  //op=122
+console.log(1+2+"2");  //op=32
